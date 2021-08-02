@@ -49,11 +49,11 @@ body{
 }
 
 .continer{
-   font: 18px sans-serif;
+   font: 14px sans-serif;
   max-width: 1200px;
   position: relative;
   margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .header{
   height: 50px;
@@ -76,6 +76,8 @@ body{
 .chat_users-list{
   border: 3px solid #cf6807;
   overflow-y: scroll ;
+  overflow-x: hidden ;
+  eight: 100%;
   }
 .chat_content{
   border: 3px solid #5807cb;
@@ -93,6 +95,7 @@ body{
 
 .h3 .h2{
   display: block;
+  font-size: 16px;
  }
 .tt{
    height: 100%;
