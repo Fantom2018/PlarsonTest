@@ -49,7 +49,7 @@ body{
 }
 
 .continer{
-   font: 1.2em sans-serif;
+   font: 18px sans-serif;
   max-width: 1200px;
   position: relative;
   margin-left: auto;
@@ -62,13 +62,15 @@ body{
 }
 
 .chat{
+
   display: grid;
   gap: 10px;
   grid-template-columns: 200px auto;
 
 }
 .chat_users-title{
-   margin-bottom: 20px;
+   margin-bottom: 5px;
+
 }
 
 .chat_users-list{
@@ -78,6 +80,8 @@ body{
 .chat_content{
   border: 3px solid #5807cb;
   overflow-y: scroll;
+  height: 100%;
+
  }
 
 .footer{
@@ -89,5 +93,7 @@ body{
 
 .h3 .h2{
   display: block;
-  padding-bottom: 120px;
+ }
+.tt{
+   height: 100%;
 }
